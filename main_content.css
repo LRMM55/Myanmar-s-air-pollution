@@ -1,0 +1,114 @@
+/* ===== GENERAL ===== */
+*{
+    /* margin:0;
+    padding:0; */
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+ 
+body{
+    background-color: rgb(226, 226, 223);
+    line-height:1.5;
+}
+/* ===== HERO ===== */
+/* break */
+#shader {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding-top: 10%;
+    padding-bottom: 1%;
+    margin-bottom: 150px;
+}
+.imp {
+    font-size: 50px;
+}
+.beta_imp {
+    font-size: 25px;
+}
+#align {
+    text-align: center;
+}
+/* ===== MAIN CONTENT ===== */
+ 
+.container{
+    width:90%;
+    max-width:1100px;
+    margin:50px auto;
+    padding:35px 0;
+    
+}
+ 
+.section{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:18px;
+    margin-bottom:25px;
+}
+ 
+/* ===== TEXT BOX ===== */
+ 
+.caro{
+    background:rgb(180, 186, 181);
+    padding:18px;
+    border-radius:10px;
+    border:1px solid rgb(19, 18, 18);
+    height:320px;
+    overflow:auto;
+}
+ 
+.caro h3{
+    font-size:20px;
+    margin-bottom:10px;
+    color: rgb(19, 18, 18);
+}
+ 
+.caro p{
+    font-size:20px;
+    color:rgb(19, 18, 18);
+    margin-bottom:10px;
+}
+ 
+.caro ul{
+    margin-left:18px;
+}
+ 
+.caro li{
+    font-size:18px;
+    margin:4px 0;
+    color:rgb(19, 18, 18);
+}
+ 
+/* ===== IMAGE ===== */
+ 
+.image{
+    height:320px;
+}
+ 
+.image img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+    border-radius:10px;
+}
+ 
+/* ===== FOOTER ===== */
+ 
+ 
+/* ===== TABLET ===== */
+ 
+@media(max-width:900px){
+ 
+    .section{
+        grid-template-columns:1fr;
+    }
+ 
+    .hero h2{
+        font-size:32px;
+    }
+ 
+    .caro, .image{
+        height:auto;
+    }
+    #align {
+        margin-top: 100px;
+    }
+}

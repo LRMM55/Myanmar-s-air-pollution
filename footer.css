@@ -1,0 +1,107 @@
+.footer {
+    background-color: rgb(179, 180, 186);
+    color: rgb(19, 18, 18);
+    padding: 60px;
+    font-family: Arial, sans-serif;
+    width: 100%s;
+   
+}
+ 
+.footer-container {
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+ 
+.footer-col {
+    flex: 1;
+    min-width: 250px;
+}
+ 
+/* Typography & Brand */
+.brand-name {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+ 
+.logo-circle img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+ 
+.description {
+    line-height: 1.6;
+    font-size: 0.95rem;
+    max-width: 300px;
+}
+ 
+/* Headers & Lines */
+h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+ 
+.heading-line {
+    width: 50px;
+    border: 1px solid rgb(180, 186, 181);
+    margin: 0 0 20px 0;
+}
+ 
+/* Lists and Links */
+ul {
+    list-style: none;
+    padding: 0;
+}
+ 
+.links li {
+    margin-bottom: 10px;
+}
+ 
+.links li a {
+    color: rgb(19, 18, 18);
+    text-decoration: none;
+}
+ 
+/* Adding the '>' before links */
+.links li::before {
+    content: "> ";
+    margin-right: 8px;
+}
+ 
+.contact-info li {
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+ 
+/* Social Icons Area */
+.social-icons {
+    margin-top: 20px;
+    display: flex;
+    gap: 15px;
+}
+[class*="bi bi-"] {
+    color: rgb(19, 18, 18);
+}
+ 
+/* Copyright Section */
+.footer-bottom {
+    margin-top: 50px;
+    padding-top: 20px;
+    border-top: 1px solid rgb(179, 180, 186);
+    text-align: center;
+    font-size: 0.9rem;
+}
+.links li a:hover {
+    color: rgb(226, 226, 223);
+}
+ 
+.social-icons a img:hover{
+    color: rgb(226, 226, 223);
+}
